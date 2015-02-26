@@ -22,6 +22,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+button {
+    background: none;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -176,18 +179,21 @@ nav {
     margin-top: 200px;
 }
 .callbutton {
+    font-family: 'Oswald', sans-serif;
     width: 180px;
     height: 50px;
     border: 4px solid #fff;
     display: block;
     margin: 0 auto;
-    letter-spacing: 2px;
-    line-height: 50px;
     color: #fff;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
     transition: all ease-in-out .2s;
+}
+.centerbtn {
+    letter-spacing: 2px;
+    line-height: 50px;
 }
 .callbutton.contactbtn {
     margin: 42px auto;
@@ -206,6 +212,10 @@ nav {
     text-align: center;
     float: right;
 }
+.aboutme {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+}
 .heroimg {
     background: url(../img/landingphoto.png) no-repeat center;
     height: 295px;
@@ -213,9 +223,9 @@ nav {
     float: left;
 }
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: .1em;
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 0;
 }
 
@@ -277,19 +287,16 @@ h1 {
     height: 520px;
     margin-top: 75px;
 }
-label {
-    font-family: 'Bitter', serif;
-}
 input {
     width: 260px; 
     height: 25px; 
     padding: 0 20px 0px 5px; 
     margin: 0 0 20px 0; 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
     border-radius: 5px;
 }
 textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
     border-radius: 5px;
     resize: none;
 }
@@ -315,53 +322,52 @@ input:focus, textarea:focus {
     float:right; 
 }
 
-
 /*footer*/
 footer {
     width: 100%;
     height: 150px;
 }
 .logosmall {
-    background: url(../img/logosmall.png) no-repeat bottom right;
+    background: url(../img/logosmall.png) no-repeat;
     height: 49px;
     width: 49px;
-    padding-left: 50px;
-    padding-top: 50px;
     float: left;
 }
 .footertype {
     text-align: left;
     line-height: 0;
+    margin-bottom: 2px;
+    border: 1px solid red;
 }
 .copyright {
-    padding-top: 40px;
-    margin-left: 120px;
+    margin-left: 60px;
 }
 .footernav a{
     color: #000;
-    font-family: 'Bitter', serif;
+    padding-left: 25px;
+    font-family: 'Tinos', serif;
 }
 .leftfoot {
     float: left;
+    margin: 50px 50px;
 }
 .rightfoot {
     float: right;
-    margin-top: 45px;
-    margin-right: 50px;
-}
-.rightfoot a {
-    padding-left: 20px;
 }
 .rightfoot a:hover {
     color: #f26252;
 }
 /* social media */
+.social {
+    margin-left: 24px;
+}
 .github {
     background: url(../img/github.png) no-repeat center;
     height: 25px;
     width: 27px;
     float: left;
-    padding: 20px 40px 0 5px;
+    margin-left: 28px;
+    margin-top: 25px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -375,7 +381,9 @@ footer {
     height: 22px;
     width: 28px;
     float: left;
-    padding: 25px 40px 0 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -389,7 +397,7 @@ footer {
     height: 23px;
     width: 23px;
     float: left;
-    padding: 20px 40px 0 0;
+    margin-top: 25px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -403,7 +411,8 @@ footer {
     height: 21px;
     width: 28px;
     float: left;
-    padding: 23px 48px 0 0;
+    margin-left: 30px;
+    margin-top: 25px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -416,13 +425,12 @@ footer {
 
 /*Progress Bars*/
 h5 {
-    font-family: 'Bitter', serif;
+    font-family: 'Tinos', serif;
     margin: 0;
 }
 li .skill {
     padding: 0;
     margin: 0;
-    border: 5px solid red;
 }
 progress, progress[role] {
     -webkit-appearance: none;
@@ -501,7 +509,7 @@ progress, progress[role] {
 
 /*helpers*/
 li {
-    font-family: 'Bitter', serif;
+    font-family: 'Tinos', serif;
     font-size: 15px;
 }
 .clearfix:after {
@@ -525,7 +533,7 @@ li {
     margin-bottom: 35px;
 }
 a {
-    font-family: 'Bitter', serif;
+    font-family: 'Tinos', serif;
     text-decoration: none;
     -webkit-transition: all ease-in-out .3s;
     -moz-transition: all ease-in-out .3s;
@@ -534,7 +542,7 @@ a {
 }
 
 h3, h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 h2 {
     font-size: 185%;
@@ -545,12 +553,12 @@ h2 {
     margin-top: 75px;
 }
 .spacing {
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 p {
-    font-family: 'Bitter', serif;
+    font-family: 'Tinos', serif;
     text-align: center;
 }
 .content {
