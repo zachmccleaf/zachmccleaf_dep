@@ -9,7 +9,9 @@
                 </div>
                 <div class="calltext">
                     <h1>Zach McCleaf</h1>
-                    <h5 class="aboutme">Hand-crafting websites and helping build your business</h5>
+                    <p class="aboutme">Front-End Web Developer</p>
+                    <p class="aboutme">Specialize in building engaging experiences</p>
+                    <p class="aboutme">accross all media platforms</p>
                     <a class = "callbutton centerbtn" href ="#">Contact Now</a>
                 </div>
             </div>

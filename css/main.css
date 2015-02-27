@@ -197,6 +197,7 @@ nav {
 }
 .callbutton.contactbtn {
     margin: 42px auto;
+    letter-spacing: .3em;
 }
 .callbutton:hover {
     border-color: #fff;
@@ -213,8 +214,8 @@ nav {
     float: right;
 }
 .aboutme {
-    margin: 20px 0 30px 0;
-    font-size: 16px;
+    margin: 10px 0 10px 0;
+    font-size: 14px;
 }
 .heroimg {
     background: url(../img/landingphoto.png) no-repeat center;
@@ -275,6 +276,7 @@ h1 {
 }
 .about p {
     text-align: left;
+    font-family: 'Sanchez', serif;
 }
 
 
@@ -292,11 +294,11 @@ input {
     height: 25px; 
     padding: 0 20px 0px 5px; 
     margin: 0 0 20px 0; 
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     border-radius: 5px;
 }
 textarea {
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     border-radius: 5px;
     resize: none;
 }
@@ -336,38 +338,37 @@ footer {
 .footertype {
     text-align: left;
     line-height: 0;
-    margin-bottom: 2px;
-    border: 1px solid red;
 }
 .copyright {
     margin-left: 60px;
+    position: relative;
+    bottom: 8px;
 }
 .footernav a{
     color: #000;
-    padding-left: 25px;
-    font-family: 'Tinos', serif;
+    padding-left: 30px;
+    font-family: 'Sanchez', serif;
 }
 .leftfoot {
     float: left;
-    margin: 50px 50px;
+    padding: 47px 50px;
 }
 .rightfoot {
     float: right;
+    padding: 43px 50px;
 }
 .rightfoot a:hover {
     color: #f26252;
 }
+
 /* social media */
-.social {
-    margin-left: 24px;
-}
 .github {
     background: url(../img/github.png) no-repeat center;
     height: 25px;
     width: 27px;
     float: left;
-    margin-left: 28px;
-    margin-top: 25px;
+    margin-left: 35px;
+    margin-top: 9px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -381,9 +382,9 @@ footer {
     height: 22px;
     width: 28px;
     float: left;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -397,7 +398,7 @@ footer {
     height: 23px;
     width: 23px;
     float: left;
-    margin-top: 25px;
+    margin-top: 8px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -411,8 +412,8 @@ footer {
     height: 21px;
     width: 28px;
     float: left;
-    margin-left: 30px;
-    margin-top: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
     -webkit-transition: all ease-in-out .2s;
     -moz-transition: all ease-in-out .2s;
     -o-transition: all ease-in-out .2s;
@@ -425,7 +426,7 @@ footer {
 
 /*Progress Bars*/
 h5 {
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     margin: 0;
 }
 li .skill {
@@ -509,7 +510,7 @@ progress, progress[role] {
 
 /*helpers*/
 li {
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     font-size: 15px;
 }
 .clearfix:after {
@@ -533,7 +534,7 @@ li {
     margin-bottom: 35px;
 }
 a {
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     text-decoration: none;
     -webkit-transition: all ease-in-out .3s;
     -moz-transition: all ease-in-out .3s;
@@ -549,16 +550,19 @@ h2 {
     padding: 30px;
     margin: 0;
 }
+h3 {
+    font-size: 30px;
+}
 .section {
     margin-top: 75px;
 }
 .spacing {
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 p {
-    font-family: 'Tinos', serif;
+    font-family: 'Sanchez', serif;
     text-align: center;
 }
 .content {
