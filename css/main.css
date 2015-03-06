@@ -99,11 +99,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*
-fonts
-font-family: 'Open Sans', sans-serif;
-font-family: 'Bitter', serif;
-*/
+
 
 
 /*header*/
@@ -214,7 +210,7 @@ nav {
     float: right;
 }
 .aboutme {
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
     font-size: 14px;
 }
 .heroimg {
@@ -222,6 +218,26 @@ nav {
     height: 295px;
     width: 380px;
     float: left;
+}
+@media (max-width: 850px) {
+    .heroimg {
+    display: none;
+  }
+}
+  .calltext {
+    margin: 0 auto;
+    padding-top: 1px;
+    width: 352px;
+    float: none;
+  }
+  .technologies {
+    float: none;
+    display: block;
+  }
+  .skills {
+    float: none;
+    display: block;
+  }
 }
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -267,6 +283,12 @@ h1 {
 .about {
     float: left;
     margin-top: 70px;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
 }
 .aboutphoto{
     float: right;
@@ -569,6 +591,12 @@ p {
     height: 300px;
     margin-top: 75px;
 }
+
+
+
+
+
+
 
 
 /* ==========================================================================
