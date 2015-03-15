@@ -3,7 +3,7 @@
 
 
 ?>
-        <div class="calltoaction">
+        <div id="calltoaction">
             <div class="container">
                 <div class="heroimg">
                 </div>
@@ -12,21 +12,22 @@
                     <p class="aboutme left">Front-End Web Developer</p>
                     <p class="aboutme">Specialize in building engaging experiences</p>
                     <p class="aboutme right">accross all media platforms</p>
-                    <a class = "callbutton centerbtn" href ="#">Contact Now</a>
+                    <a class = "callbutton centerbtn" href ="#contact">Contact Now</a>
                 </div>
             </div>
         </div>
-        <div class="work">
+        <div id="work">
             <div class="container bottomborder">
                 <div class="content">
                     <h3>Work</h3>
                     <p>Coming Soon!</p>
+                    <a class="link" href="FEWD.html">Check out my work from Betamore</a>
                 </div>
             </div>
         </div>
         <div class="container bottomborder">
             <div class="clearfix">
-                <div class="skills">
+                <div id="skills">
                     <h3>Skills</h3>
                     <ul class="skilllist">
                         <li class="skill">
@@ -73,16 +74,20 @@
                     </ul>
                 </div>
             </div>
-            <a class="resume" href="#">Download My Resume</a>
+            <a class="resume link" href="#">Download My Resume</a>
         </div>
         <div class="container clearfix">
-            <div class="about">
-            <img class="aboutphoto" src="img/aboutphoto.png">
+            <div id="about">
+            <img src="img/aboutphoto.png" class="aboutphoto">
                 <h3>Zach McCleaf</h3>
-                <p>Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod semper.</p>
+                <p>I am a twenty-six year old front-end web developer from Southern Pennsylvania. I have always had a knack 
+                for anything computer related, and also love to create things. I started making and breaking web pages over 
+                a year ago, and it has been love ever since. If I am not sitting in front of my computer plugging away on 
+                a project, you can find me spending time with family and friends, learning something new, being 
+                outside, or tasting a new brew. I would love to hear from you, so let me know how I can help!</p>
             </div>
         </div>
-        <div class="contact">
+        <div id="contact">
             <div class="whitelineleft"></div>
             <div class="whitelineright"></div>
             <h2>Contact</h3>
@@ -94,7 +99,7 @@
                     <input class="input" name="email" type="text" value="" size="30" placeholder="Email"/><br />
                 </div>
                 <div class="row">
-                    <textarea class="message" name="message" type="text" rows="7" cols="70" placeholder="Message"></textarea><br />
+                    <textarea class="message" name="message" type="text" rows="7" cols="60" placeholder="Message"></textarea><br />
                 </div>
                  <button type="submit" name="send" class="callbutton contactbtn">Say Hi!</button>
                 </form>                     

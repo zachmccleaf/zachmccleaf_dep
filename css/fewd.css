@@ -74,21 +74,18 @@ p, ul, h6 {
 }
 .content1 {
     width: 550px;
-    display: block;
-    margin: 10px auto;
-    padding-bottom: 50px;
 }
 .content2 {
     width: 500px;
-    display: block;
-    margin: 10px auto;
-    padding-bottom: 50px;
 }
 .content3 {
-    display: block;
     width: 450px;
-    margin: 10px auto;
+}
+.content1, .content2, .content3 {
+    display: block;
     padding-bottom: 50px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
 }
 .disclaimer {
     color: gray;

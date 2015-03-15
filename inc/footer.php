@@ -1,24 +1,24 @@
 <footer>
+<div class="rightfoot">
+                <div class="footernav">
+                    <a href="#work">Work</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="social">
+                    <a href="https://github.com/zachmccleaf" class="github"></a>
+                    <a href="https://twitter.com/zachmccleaf" class="twitter"></a>
+                    <a href="http://www.linkedin.com/in/zachmccleaf" class="linkedin"></a>
+                    <a href="mailto:mccleaf324@gmail.com" class="mail"></a>
+                </div>
+            </div>
             <div class="leftfoot">
                 <div class="logosmall"></div>
                 <div class="copyright">
                     <p class="footertype">Code &amp; Design by</p>
                     <p class="footertype">Zach McCleaf</p>
                     <p class="footertype">&copy; 2015</p>
-                </div>
-            </div>
-            <div class="rightfoot">
-                <div class="footernav">
-                    <a href="#">Work</a>
-                    <a href="#">Skills</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div class="social">
-                    <a href="#" class="github"></a>
-                    <a href="#" class="twitter"></a>
-                    <a href="#" class="linkedin"></a>
-                    <a href="#" class="mail"></a>
                 </div>
             </div>
         </footer>

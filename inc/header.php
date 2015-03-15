@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Zach McCleaf | Front-End Web Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,10 +28,10 @@
             <div class="clearfix">
                 <div class="headerlogo">Zach Logo</div>
                 <nav>
-                    <a href="#section1">Work</a>
-                    <a href="#section2">Skills</a>
-                    <a href="#section3">About</a>
-                    <a href="#section4">Contact</a>
+                    <a href="#work">Work</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
