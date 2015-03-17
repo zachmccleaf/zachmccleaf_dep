@@ -325,6 +325,9 @@ nav {
     .shrink .headerlogo {
         margin-top: 10px;
     }
+    .scrolltop {
+        display: none;
+    }
 }
 @media (max-width: 861px) {
   .heroimg {
@@ -373,7 +376,14 @@ h1 {
     font-size: 55px;
     margin-bottom: 0;
 }
-
+.technologies {
+    padding-top: 0 !important;
+}
+@media (min-width: 875px) {
+    .technologies {
+        padding-top: 125px !important;
+    }
+}
 
 /*work*/
 #work {
@@ -394,7 +404,6 @@ h1 {
 .technologies {
     float: right;
     padding-left: 50px;
-    padding-top: 125px;
 }
 .technologies li {
     line-height: 2.2em;
