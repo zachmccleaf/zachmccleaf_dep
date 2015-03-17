@@ -173,7 +173,8 @@ nav {
     height: 295px;
     width: 100%;
     border-bottom: 3px solid #8de6bb;
-    margin-top: 200px;
+    margin-top: 75px;
+    padding-top: 125px;
 }
 .callbutton {
     font-family: 'Oswald', sans-serif;
@@ -238,14 +239,27 @@ nav {
     }
     .rightfoot {
         float: none !important;
+        text-align: center; 
     }
     .footernav a {
         padding-left: 0 !important;
-        padding-right: 15px;
+        margin: 5px;        
     }
-    .github, .twitter, .linkedin, .mail {
-        margin-left: 0 !important;
-        margin-right: 47px !important;
+    .social {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .linkedin, .twitter, .mail, .github {
+        margin: 20px !important;
+    }
+    .leftfoot {
+        display: block !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+        text-align: center !important;
+        width: 200px !important;
+        float: none !important;
+        border: 1px solid #fff;
     }
 }
 @media (max-width: 460px) {
@@ -363,7 +377,7 @@ h1 {
 
 /*work*/
 #work {
-    margin: 75px 0;
+    padding: 125px 0 0 0;
 }
 #work a  {
     text-align: center;
@@ -375,10 +389,15 @@ h1 {
 /*skills*/
 #skills {
     float: left;
+    padding: 125px 0;
 }
 .technologies {
     float: right;
     padding-left: 50px;
+    padding-top: 125px;
+}
+.technologies li {
+    line-height: 2.2em;
 }
 .resume {
     background: url("../img/pdf.png") no-repeat 100% 4px;
@@ -403,7 +422,7 @@ h1 {
 /*about*/
 #about {
     float: left;
-    margin-top: 70px;
+    padding: 125px 0;
 }
 .aboutphoto{
     float: right;
@@ -424,7 +443,7 @@ h1 {
     background: #f26252;
     width: 100%;
     height: 520px;
-    margin-top: 75px;
+    padding: 125px 0;
 }
 input {
     width: 260px; 
@@ -462,6 +481,18 @@ input:focus, textarea:focus {
 }
 
 /*footer*/
+.scrolltop {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 50px;
+  width: 100px;
+  background: #f26252;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  opacity: .8;
+}
 footer {
     width: 100%;
     height: 150px;
@@ -492,7 +523,7 @@ footer {
 }
 .rightfoot {
     float: right;
-    padding: 43px 50px;
+    padding: 38px 50px;
 }
 .rightfoot a:hover {
     color: #f26252;

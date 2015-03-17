@@ -65,7 +65,6 @@
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>PHP</li>
-                        <li>AJAX</li>
                         <li>FTP</li>
                         <li>Version Control (GIT)</li>
                         <li>WordPress</li>
@@ -74,11 +73,11 @@
                     </ul>
                 </div>
             </div>
-            <a class="resume link" href="#">Download My Resume</a>
+            <a class="resume link" href="Resume.pdf">Download My Resume</a>
         </div>
         <div class="container clearfix">
             <div id="about">
-            <img src="img/aboutphoto.png" class="aboutphoto">
+            <img src="img/aboutphoto.png" alt="My Photo" class="aboutphoto">
                 <h3>Zach McCleaf</h3>
                 <p>I am a twenty-six year old front-end web developer from Southern Pennsylvania. I have always had a knack 
                 for anything computer related, and also love to create things. I started making and breaking web pages over 
@@ -90,7 +89,7 @@
         <div id="contact">
             <div class="whitelineleft"></div>
             <div class="whitelineright"></div>
-            <h2>Contact</h3>
+            <h3>Contact</h3>
             <form class="contactform" action="confirm.php" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <input class="input" name="name" type="text" value="" size="30" placeholder="Name" /><br />
@@ -99,7 +98,7 @@
                     <input class="input" name="email" type="text" value="" size="30" placeholder="Email"/><br />
                 </div>
                 <div class="row">
-                    <textarea class="message" name="message" type="text" rows="7" cols="60" placeholder="Message"></textarea><br />
+                    <textarea class="message" name="message" rows="7" cols="60" placeholder="Message"></textarea><br />
                 </div>
                  <button type="submit" name="send" class="callbutton contactbtn">Say Hi!</button>
                 </form>                     

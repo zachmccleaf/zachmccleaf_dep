@@ -10,6 +10,9 @@
     margin-top: 55px;
     margin-bottom: 55px;
 }
+.noborder {
+    border: none !important;
+}
 .fewd-footnav {
     text-decoration: none;
     display: block;
