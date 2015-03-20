@@ -32,28 +32,33 @@
                     <ul class="skilllist">
                         <li class="skill">
                             <h5>Programming</h5>
-                            <progress class="skill1" max="100" value="90">
-                            </progress>
+                            <div class="bar">
+                                <span class="wow fill" style="width: 90%"></span>      
+                            </div>
                         </li>
                         <li class="skill">
                             <h5>Troubleshooting</h5>
-                            <progress class="skill2" max="100" value="90">
-                            </progress>
+                            <div class="bar"> 
+                                <span class="wow fill" style="width: 87%"></span>
+                            </div>
                         </li>
                         <li class="skill">
                             <h5>Learning</h5>
-                            <progress class="skill3" max="100" value="97">
-                            </progress>
+                            <div class="bar"> 
+                                <span class="wow fill" style="width: 98%"></span>
+                            </div>
                         </li>
                         <li class="skill">
                             <h5>Multi-Tasking</h5>
-                            <progress class="skill4" max="100" value="93">
-                            </progress>
+                            <div class="bar">
+                                <span class="wow fill" style="width: 90%"></span>
+                            </div>
                         </li>
                         <li class="skill">
                             <h5>Teamwork</h5>
-                            <progress class="skill5" max="100" value="90">
-                            </progress>
+                            <div class="bar">
+                                <span class="wow fill" style="width: 94%"></span> 
+                            </div>
                         </li>
                     </ul>
                 </div>

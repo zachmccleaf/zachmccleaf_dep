@@ -1,0 +1,246 @@
+#contact input {
+    width: 260px;
+}
+.technologies {
+    float: right;
+    padding-left: 50px;
+}
+#skills {
+    float: left;
+}
+.shrink nav{
+    margin-top: 20px;
+}
+header .shrink .headerlogo {
+    margin: 20px 0;
+}
+.shrink {
+    height: 65px;
+    width: 100%;
+}
+.shrink .headerlogo {
+    background: url(../img/logosmall.png) no-repeat right;
+    height: 49px;
+    width: 49px;
+    padding-left: 75px;
+}
+nav {
+    margin-right: 35px;
+}
+ .headerlogo {
+    margin-left: 35px;
+}
+.headerlogo {
+    margin-left: 75px;
+}
+nav {
+    margin-right: 75px;
+}
+nav a {
+    margin: 10px;
+}
+.scrolltop {
+    display: inline;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100px;
+    background: #f26252;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    opacity: .8;
+}
+nav a {
+    margin: 5px;
+}
+#calltoaction {
+    height: 350px;
+}
+.skill progress, progress[role] {
+    width: 400px;
+    height: 40px;
+}
+#skills h5 {
+    bottom: -35px;
+}
+.aboutphoto {
+    width: 328px;
+    height: 328px;
+}
+.headerlogo {
+    float: left;
+    margin-top: 55px;
+}
+nav {
+    float: right;
+    margin-top: 85px;
+}
+nav {
+    float: right;
+    margin-top: 85px;
+}
+#skills {
+    float: left;
+}
+.technologies {
+    float: right;
+    padding: 125px 0;
+}
+.technologies {
+    width: 200px;
+}
+.heroimg {
+    background: url(../img/landingphoto.png) no-repeat center;
+    height: 295px;
+    width: 380px;
+    float: left;
+    margin-left: 40px;
+}
+.calltext {
+    float: right;
+    margin-right: 40px;
+}
+#about h3 {
+    text-align: left;
+}
+#about {
+    float: left;
+    padding: 125px 0;
+}
+.aboutphoto{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin: 0 0 20px 10px;
+}
+#about p {
+    text-align: left;
+}
+nav a {
+    margin: 30px;
+}
+.skill h5 {
+    margin-left: 60px;
+}
+#calltoaction {
+    height: 350px;
+}
+
+.heroimg {
+    margin-left: 5px;
+}
+.calltext {
+    margin-right: 5px;
+    padding: 0;
+}
+#calltoaction {
+    height: 295px;
+}
+#calltoaction {
+    height: 295px;
+}
+.calltext {
+    margin-top: -30px;
+} 
+.whitelineleft {
+    height: 5px;
+    width:40%;
+    background: #fff;
+    position: relative;
+    top: 55px;
+}
+.whitelineright {
+    height: 5px;
+    width:40%;
+    background: #fff;
+    position: relative;
+    top: 50px;
+    float:right; 
+}
+.leftfoot {
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+.rightfoot {
+    float: right;
+    margin: 20px 0;
+    height: 106px;
+    padding-top: 17px;
+}
+.rightfoot .social {
+    margin: 0 20px 0 0;
+    float: right;
+}
+footer .footernav {
+    margin: 0 20px 0 0;
+}
+li {
+    font-family: 'Sanchez', serif;
+    font-size: 15px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.container {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+.height {
+    line-height: 1.8em;
+}
+.white {
+    margin-bottom: 35px;
+}
+a, p {
+    font-family: 'Sanchez', serif;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s; 
+}
+
+h3, h2, h1, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    font-size: 185%;
+    padding: 30px;
+    margin: 0;
+}
+h3 {
+    font-size: 30px;
+}
+.section {
+    margin-top: 75px;
+}
+.spacing {
+    letter-spacing: .1em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+p {
+    font-family: 'Sanchez', serif;
+    text-align: center;
+}
+.content {
+    height: 300px;
+    margin-top: 75px;
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: #f26252;
+}
