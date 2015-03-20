@@ -211,7 +211,7 @@ nav {
     border-top: 2px solid #e6e6e6;
 }
 #work {
-    padding-top: 50px;
+    padding: 150px 0 0 0;
 }
 #work a  {
     text-align: center;
@@ -245,7 +245,8 @@ nav {
 #skills {
     width: 400px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 150px 0 0 0;
+    max-width: 100%;
 }
 .technologies {
     display: block;
@@ -273,9 +274,6 @@ li .skill {
     padding-bottom: 6px;
     z-index: 99;
 }
-#skills {
-    max-width: 100%;
-}
 .bar {
     height: 35px;
     background: #e6e6e6;
@@ -287,17 +285,24 @@ li .skill {
     display: block;
     background: #8de6bb;
     transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
     transition: transform 2s ease;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+    -o-transition: 2s ease;
 }
 .bar .fill.animated {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
 }
 
 /* +++ABOUT+++ */
 #about {
     text-align: center;
     float: left;
-    padding: 50px 0;
+    padding: 150px 0 0 0;
 }
 .aboutphoto {
     width: 200px;
@@ -313,7 +318,7 @@ li .skill {
     background: #f26252;
     width: 100%;
     height: 520px;
-    padding: 50px 0;
+    padding: 150px 0 0 0;
 }
 input {
     width: 26px;
@@ -629,6 +634,21 @@ h1 {
         float: right;
         margin-top: 85px;
     }
+    #work {
+        padding: 50px 0 0 0;
+    }
+    #skills {
+        padding: 50px 0 0 0;
+    }
+    #about {
+        padding: 50px 0 0 0;
+    }
+    #contact {
+        padding: 50px 0 0 0;
+    }
+    .clearfix .technologies {
+        padding: 50px 0 0 0;
+    }
 }
 @media(min-width: 460px) and (max-width: 860px){
     nav {
@@ -637,16 +657,16 @@ h1 {
     }
 }
 
-@media (min-width: 875px) {
+@media (min-width: 883px) {
     #skills {
         float: left;
     }
-    .technologies {
+    .clearfix .technologies {
         float: right;
-        padding: 50px 0;
+        padding: 50px 50px 0 0;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 325px) {
     .technologies {
         width: 200px;
     }
