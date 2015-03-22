@@ -1,20 +1,23 @@
 #contact input {
     width: 260px;
 }
+.no-svg #contact h3 {
+    text-align: center;
+}
+.no-svg #contact {
+    padding: 50px 0;
+}
 .technologies {
     float: right;
     padding-left: 50px;
 }
-#skills {
-    float: left;
+.headerlogo {
+    padding: 0 0 0 150px;
 }
 .shrink nav{
     margin-top: 20px;
 }
-header .shrink .headerlogo {
-    margin: 20px 0;
-}
-.shrink {
+.no-svg .shrink {
     height: 65px;
     width: 100%;
 }
@@ -26,9 +29,6 @@ header .shrink .headerlogo {
 }
 nav {
     margin-right: 35px;
-}
- .headerlogo {
-    margin-left: 35px;
 }
 .headerlogo {
     margin-left: 75px;
@@ -55,13 +55,6 @@ nav a {
 nav a {
     margin: 5px;
 }
-#calltoaction {
-    height: 350px;
-}
-.skill progress, progress[role] {
-    width: 400px;
-    height: 40px;
-}
 #skills h5 {
     bottom: -35px;
 }
@@ -77,16 +70,20 @@ nav {
     float: right;
     margin-top: 85px;
 }
+.no-svg #work {
+    padding: 50px 0;
+}
 nav {
     float: right;
     margin-top: 85px;
 }
-#skills {
+.no-svg #skills {
     float: left;
+    padding: 50px 0 0 0;
 }
 .technologies {
     float: right;
-    padding: 125px 0;
+    padding: 50px 0;
 }
 .technologies {
     width: 200px;
@@ -102,18 +99,19 @@ nav {
     float: right;
     margin-right: 40px;
 }
-#about h3 {
+.no-svg h3 {
     text-align: left;
 }
-#about {
+.no-svg #about {
     float: left;
-    padding: 125px 0;
+    padding: 50px 0;
 }
-.aboutphoto{
+.no-svg .aboutphoto{
     width: 300px;
     height: 300px;
     float: right;
     margin: 0 0 20px 10px;
+    border: none;
 }
 #about p {
     text-align: left;
@@ -124,9 +122,6 @@ nav a {
 .skill h5 {
     margin-left: 60px;
 }
-#calltoaction {
-    height: 350px;
-}
 
 .heroimg {
     margin-left: 5px;
@@ -135,10 +130,7 @@ nav a {
     margin-right: 5px;
     padding: 0;
 }
-#calltoaction {
-    height: 295px;
-}
-#calltoaction {
+.no-svg #calltoaction {
     height: 295px;
 }
 .calltext {
@@ -210,7 +202,6 @@ a {
     -o-transition: all ease-in-out .3s;
     transition: all ease-in-out .3s; 
 }
-
 h3, h2, h1, h4 {
     font-family: 'Oswald', sans-serif;
 }
@@ -224,6 +215,11 @@ h3 {
 }
 .section {
     margin-top: 75px;
+}
+.no-svg .fill{
+    background: red;
+    width: 90px;
+    height: 100px;
 }
 .spacing {
     letter-spacing: .1em;

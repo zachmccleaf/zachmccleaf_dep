@@ -303,6 +303,7 @@ li .skill {
     text-align: center;
     float: left;
     padding: 150px 0 0 0;
+    margin: 0 0 50px 0;
 }
 .aboutphoto {
     width: 200px;
@@ -475,7 +476,10 @@ li {
 .white {
     margin-bottom: 35px;
 }
-a, p, li, h5 {
+textarea, input, a, p, li, h5 {
+    font-family: 'Sanchez', serif;
+}
+::-webkit-input-placeholder, textarea {
     font-family: 'Sanchez', serif;
 }
 a {
@@ -692,8 +696,11 @@ h1 {
         float: right;
         margin-right: 40px;
     }
-    #about h3 {
+    h3 {
         text-align: left;
+    }
+    #contact h3 {
+        text-align: center;
     }
     #about {
         float: left;
