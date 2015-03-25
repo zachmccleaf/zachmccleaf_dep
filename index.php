@@ -83,12 +83,13 @@
         <div class="container clearfix">
             <div id="about">
             <img src="img/aboutphoto.png" alt="My Photo" class="aboutphoto">
-                <h3>Zach McCleaf</h3>
-                <p>I am a twenty-six year old front-end web developer from Southern Pennsylvania. I have always had a knack 
-                for anything computer related, and also love to create things. I started making and breaking web pages over 
-                a year ago, and it has been love ever since. If I am not sitting in front of my computer plugging away on 
-                a project, you can find me spending time with family and friends, learning something new, being 
-                outside, or tasting a new brew. I would love to hear from you, so let me know how I can help!</p>
+                <h3>About</h3>
+                <p>I am a family oriented, nature loving, beer drinking web developer looking for new projects. I've always had a 
+                knack for anything computer related, and fell into coding more seriously over a year ago. The reason I love 
+                making, breaking and fixing websites comes from my desire to learn new things, and a passion for creative 
+                solutions. Long story short, I enjoy solving complex problems with modular, succinct code.
+                <a href="mailto:mccleaf324@gmail.com">Connect with me</a>
+                </p>
             </div>
         </div>
         <div id="contact">

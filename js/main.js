@@ -1,11 +1,18 @@
+
+//progress bar animation (initiate WOW.js)
 new WOW().init();
 
+
+//header shrinkage
 $(document).ready(function() {
 	$(window).on("scroll touchmove", function () {
 	    $('header').toggleClass('shrink', $(document).scrollTop() > 250);
   });  
 });
 
+
+
+//scroll to top function
 $(function(){
   var prevScroll = 0,
       curDir = 'down',
@@ -31,7 +38,7 @@ $(function(){
   });
 })
 
-
+//placeholder ie fix
 $('[placeholder]').focus(function() {
   var input = $(this);
   if (input.val() == input.attr('placeholder')) {

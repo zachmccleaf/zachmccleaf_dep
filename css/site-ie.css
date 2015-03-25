@@ -99,6 +99,9 @@ nav {
     float: right;
     margin-right: 40px;
 }
+.bar .fill {
+    visibility: visible !important;
+}
 .no-svg h3 {
     text-align: left;
 }
