@@ -311,6 +311,9 @@ li .skill {
     border: 4px solid #8de6bb;
     border-radius: 50%;
 }
+#about a {
+    text-decoration: underline;
+}
 
 /* +++CONTACT+++ */
 #contact {

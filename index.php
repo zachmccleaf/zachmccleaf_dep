@@ -78,7 +78,7 @@
                     </ul>
                 </div>
             </div>
-            <a class="resume link" href="Resume.pdf">Download My Resume</a>
+            <a class="resume link" href="resume.pdf">Download My Resume</a>
         </div>
         <div class="container clearfix">
             <div id="about">
@@ -107,6 +107,6 @@
                     <textarea class="message" name="message" rows="7" cols="60" placeholder="Message"></textarea><br />
                 </div>
                  <button type="submit" name="send" class="callbutton contactbtn">Say Hi!</button>
-                </form>                     
-            </div>
+            </form>                     
+        </div>
 <?php include 'inc/footer.php' ?> 
