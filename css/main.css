@@ -128,16 +128,16 @@ header {
     white-space: nowrap;
     text-indent: 100%;
     margin: 35px auto;
-    -webkit-transition: all ease-in-out .3s;
-    -moz-transition: all ease-in-out .3s;
-    -o-transition: all ease-in-out .3s;
-    transition: all ease-in-out .3s;
 }
 .shrink {
     height: 150px;
 }
 .shrink .headerlogo {
     margin: 10px auto;
+    -webkit-transition: color ease-in-out .2s;
+    -moz-transition: color ease-in-out .2s;
+    -o-transition: color ease-in-out .2s;
+    transition: color ease-in-out .2s;
 }
 header a {
     color: #000;
@@ -149,6 +149,10 @@ header a {
 }
 nav {
     display: inline-block;
+    -webkit-transition: color ease-in-out .2s;
+    -moz-transition: color ease-in-out .2s;
+    -o-transition: color ease-in-out .2s;
+    transition: color ease-in-out .2s;
 }
 
 /* +++CALL TO ACTION+++ */
