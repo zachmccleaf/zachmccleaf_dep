@@ -1,2 +1,12 @@
 User-agent: *
-Disallow: /resume.pdf
+Disallow:/resume.pdf
+Disallow:/img/*
+Disallow:.git
+Disallow:01_Article.html
+Disallow:03_CoffeeShop.html
+Disallow:04_Calculator.html
+Disallow:05_TabPlugin.html
+Disallow:06_PhotoApp.html
+Disallow:404.php
+Disallow:confirm.php
+Dissallow:sftp-config.json
