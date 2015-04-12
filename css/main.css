@@ -758,6 +758,9 @@ h1 {
     .calltext {
         margin-top: -30px;
     } 
+    .containtwo {
+    width: 950px;
+    }
 }
 @media (min-width: 550px) {
     .leftfoot {
